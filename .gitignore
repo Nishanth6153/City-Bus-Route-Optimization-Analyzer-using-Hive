@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Virtual Envs
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+coverage/
+*.log
+
+# Sensitive environment variables
+.env
+.env.*
+!.env.example
+
+# IDEs & OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Database local runtime files (recreatable via seed.py)
+backend/data/*.db-wal
+backend/data/*.db-shm
